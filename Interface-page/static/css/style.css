@@ -291,3 +291,64 @@ button:active {
 .info-button:hover {
   background-color: #d3d3d3;
 }
+
+/* Settings Button Styles */
+.settings-container {
+  position: relative;
+}
+
+#settingsButton {
+  background: var(--primary-color);
+  border: none;
+  font-size: 24px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 8px 12px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#settingsButton:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.1);
+}
+
+#settingsButton:focus {
+  outline: none;
+}
+
+/* Dropdown Styles */
+#settingsDropdown {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 120px;
+  padding: 0;
+}
+
+#settingsDropdown a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#settingsDropdown a:last-child {
+  border-bottom: none;
+}
+
+#settingsDropdown a:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+}

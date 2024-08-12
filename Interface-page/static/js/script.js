@@ -73,4 +73,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+  
 
+  // Settings dropdown toggle
+  const settingsButton = document.getElementById('settingsButton');
+  const settingsDropdown = document.getElementById('settingsDropdown');
+
+  settingsButton.addEventListener('click', function() {
+    const isVisible = settingsDropdown.style.display === 'block';
+    settingsDropdown.style.display = isVisible ? 'none' : 'block';
+  });
+
+  // Close dropdown if clicked outside
+  document.addEventListener('click', function(event) {
+    if (!settingsButton.contains(event.target) && !settingsDropdown.contains(event.target)) {
+      settingsDropdown.style.display = 'none';
+    }
+  });
+
+  
