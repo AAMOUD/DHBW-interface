@@ -73,7 +73,6 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-  
 
   // Settings dropdown toggle
   const settingsButton = document.getElementById('settingsButton');
