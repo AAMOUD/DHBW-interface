@@ -7,7 +7,7 @@
 
 ![WhatsApp Image 6](https://raw.githubusercontent.com/AAMOUD/DHBW-interface/main/Dashboards/WhatsApp%20Image%202024-10-18%20at%2023.35.38%20(6).jpeg)
 
-## Dashboards
+## Dashboards :
 
 ### Image 1
 ![WhatsApp Image 1](https://raw.githubusercontent.com/AAMOUD/DHBW-interface/main/Dashboards/WhatsApp%20Image%202024-10-18%20at%2023.35.38%20(1).jpeg)
