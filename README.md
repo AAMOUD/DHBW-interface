@@ -1,3 +1,4 @@
 # DHBW-interface
 
-![Demo]([path/to/your/video.gif](https://github.com/AAMOUD/DHBW-interface/blob/main/gif%20interface.gif))
+![Demo](https://raw.githubusercontent.com/AAMOUD/DHBW-interface/main/gif%20interface.gif)
+
